@@ -1,2 +1,2 @@
 # landing_page
-2nd odin project,itna mushkil kyu hai web dev (-_-)
+2nd odin project
