@@ -5,16 +5,20 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-body{
+/* body{
     margin-right: 15%;
     margin-left: 15%;
-}
+} */
 .header{
     background-color: #1f2937;
     display: flex;
-    height: 10vh;
+    height: 20vh;
     justify-content: space-around;
     align-items: center;
+}
+.headerImage{
+    height: 20vh;
+    width: 20vh;
 }
 #header_links{
     display: flex;
@@ -32,7 +36,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    height: 180vh;
+    height: 240vh;
     /* border: 10px solid black; */
 
     background-color: beige;
@@ -52,6 +56,7 @@ body{
    
     width: 40%;
     height: 80%;
+    border-radius: 5%;
 }
 #heading{
    color: #f9faf8;
@@ -61,12 +66,18 @@ body{
 
 }
 #signupbutton{
+    display: flex;
     background-color:#3882f6;
     height: 10%;
     width: 20%;
     border-radius: 10%;
     border: 0px;
     margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#signupText{
+
 }
 #two{
     background-color: white;
@@ -80,6 +91,7 @@ body{
     width: 65%;
     background-color: white;
     align-items: center;
+    justify-content: center;
 }
 .info{
     background-color: white;
@@ -89,6 +101,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .ilimg{
     border-radius: 20px;
@@ -103,13 +116,22 @@ body{
 }
 .quote{
     width: 60%;
-    height: 80%;
+    height: 72px;
     display: flex;
     align-items: center;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+   
 
+}
+.quotewriter{
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
 }
 #thor{
     font-size: 12px;
@@ -122,7 +144,7 @@ body{
 
 }
 #subfour1{
-    height: 35vh;
+    height: 50vh;
     background-color: white;
     display: flex;
     justify-content: center;
